@@ -10,6 +10,7 @@
     <th>source</th>
     <th>target</th>
     <th>FlowCPCVC</th>
+    <th>VQMIVC</th>
   </tr>
   <tr>
     <td>​
