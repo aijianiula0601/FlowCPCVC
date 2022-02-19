@@ -1,9 +1,12 @@
 ## A flow contrastive predictive coding voice conversion system
 
 
-## Comparison among systems of any-to-any
+## VC performance of different ways
 
-### M2F
+___
+## Any-to-Any 
+####speaker in test-dataset of vctk,all speakers are unseen during training
+### Man-to-female
 
 <table>
 <tr>
