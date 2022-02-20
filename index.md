@@ -442,3 +442,205 @@ ___
 </table>
 
 ## any-to-many
+
+--------
+#### speakers of target in libritts, speakers of source in vctk test-dataset. all speakers are unseen during training. We only train the model with vctk.
+
+<table>
+<tr>
+<th>source</th>
+<th>target</th>
+<th>FlowCPCVC</th>
+<th>VQMIVC</th>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p231_406_to_7127_75947_000082_000005/p231_406.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p231_406_to_7127_75947_000082_000005/7127_75947_000082_000005.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p231_406_to_7127_75947_000082_000005/p231_406_to_7127_75947_000082_000005.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p231_406_to_7127_75947_000082_000005/p231_406_to_7127_75947_000082_000005.wav">
+</audio>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p231_406_to_8555_284447_000039_000002/p231_406.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p231_406_to_8555_284447_000039_000002/8555_284447_000039_000002.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p231_406_to_8555_284447_000039_000002/p231_406_to_8555_284447_000039_000002.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p231_406_to_8555_284447_000039_000002/p231_406_to_8555_284447_000039_000002.wav">
+</audio>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p251_010_to_6829_68771_000042_000002/p251_010.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p251_010_to_6829_68771_000042_000002/6829_68771_000042_000002.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p251_010_to_6829_68771_000042_000002/p251_010_to_6829_68771_000042_000002.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p251_010_to_6829_68771_000042_000002/p251_010_to_6829_68771_000042_000002.wav">
+</audio>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p274_247_to_2830_3979_000021_000000/p274_247.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p274_247_to_2830_3979_000021_000000/2830_3979_000021_000000.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p274_247_to_2830_3979_000021_000000/p274_247_to_2830_3979_000021_000000.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p274_247_to_2830_3979_000021_000000/p274_247_to_2830_3979_000021_000000.wav">
+</audio>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p284_213_to_1995_1826_000031_000003_16k/p284_213.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p284_213_to_1995_1826_000031_000003_16k/1995_1826_000031_000003_16k.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p284_213_to_1995_1826_000031_000003_16k/p284_213_to_1995_1826_000031_000003_16k.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p284_213_to_1995_1826_000031_000003_16k/p284_213_to_1995_1826_000031_000003_16k.wav">
+</audio>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p293_287_to_121_127105_000041_000001/p293_287.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p293_287_to_121_127105_000041_000001/121_127105_000041_000001.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p293_287_to_121_127105_000041_000001/p293_287_to_121_127105_000041_000001.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p293_287_to_121_127105_000041_000001/p293_287_to_121_127105_000041_000001.wav">
+</audio>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p326_294_to_121_127105_000041_000001/p326_294.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p326_294_to_121_127105_000041_000001/121_127105_000041_000001.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p326_294_to_121_127105_000041_000001/p326_294_to_121_127105_000041_000001.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p326_294_to_121_127105_000041_000001/p326_294_to_121_127105_000041_000001.wav">
+</audio>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p334_210_to_237_126133_000011_000000_16k/p334_210.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_vctk_vc_to_libritts/p334_210_to_237_126133_000011_000000_16k/237_126133_000011_000000_16k.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_vctk_vc_to_libritts/p334_210_to_237_126133_000011_000000_16k/p334_210_to_237_126133_000011_000000_16k.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vqmivc_vctk_vc_to_libritts/p334_210_to_237_126133_000011_000000_16k/p334_210_to_237_126133_000011_000000_16k.wav">
+</audio>
+</td>
+</tr>
+</table> 
