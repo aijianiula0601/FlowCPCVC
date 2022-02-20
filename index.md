@@ -441,7 +441,7 @@ ___
 </tr>
 </table>
 
-## any-to-many
+## target timbre come from libritts, which is a dataset different to vctk 
 
 --------
 #### speakers of target in libritts, speakers of source in vctk test-dataset. all speakers are unseen during training. We only train the model with vctk.
