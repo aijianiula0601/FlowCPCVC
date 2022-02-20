@@ -161,6 +161,13 @@ ___
 
 ### female-to-Man
 
+<table>
+<tr>
+<th>source</th>
+<th>target</th>
+<th>FlowCPCVC</th>
+<th>VQMIVC</th>
+</tr>
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
@@ -279,5 +286,6 @@ ___
 </audio>
 </td>
 </tr>
+</table>>
 
 ## any-to-many
