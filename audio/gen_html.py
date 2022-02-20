@@ -109,27 +109,54 @@ def process_data(source_wav_name, target_wav_name):
 # # ------------------------------------------------
 
 #F2M
-to_sp="p231_406_to_p273_026"
+# to_sp="p231_406_to_p273_026"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name,target_wav_name)
+# #--------------------------------------------------------------
+# to_sp="p293_287_to_p302_012"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name,target_wav_name)
+# #--------------------------------------------------------------
+# to_sp="p231_406_to_p243_148"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name,target_wav_name)
+# #--------------------------------------------------------------
+# to_sp="p293_287_to_p273_026"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name,target_wav_name)
+# #--------------------------------------------------------------
+# to_sp="p293_287_to_p270_103"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name,target_wav_name)
+
+
+#femal-to-Man or Man-to-Man
+to_sp="p284_213_to_p243_148"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name,target_wav_name)
 #--------------------------------------------------------------
-to_sp="p293_287_to_p302_012"
+to_sp="p334_210_to_p270_103"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name,target_wav_name)
 #--------------------------------------------------------------
-to_sp="p231_406_to_p243_148"
+to_sp="p251_010_to_p270_103"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name,target_wav_name)
 #--------------------------------------------------------------
-to_sp="p293_287_to_p273_026"
+to_sp="p251_010_to_p239_009"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name,target_wav_name)
 #--------------------------------------------------------------
-to_sp="p293_287_to_p270_103"
+to_sp="p293_287_to_p262_054"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name,target_wav_name)
