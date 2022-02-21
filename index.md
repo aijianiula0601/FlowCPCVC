@@ -6,7 +6,7 @@ ___
 ## Any-to-Any
  
 --------
-#### speaker in test-dataset come from vctk, all speakers are unseen during training
+#### speakers in test-dataset come from vctk, all speakers are unseen during training
 
 
 ### Man-to-female
