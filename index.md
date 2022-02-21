@@ -1,6 +1,6 @@
 # FlowCPCVC
 
-## Audio Demo for "FlowCPCVC:A flow contrastive predictive coding voice conversion system"
+## Audio Demo for "FlowCPCVC: A flow contrastive predictive coding voice conversion system"
 
 
 ## VC performance of different ways
@@ -647,7 +647,7 @@ ___
 </tr>
 </table> 
 
-## The results that wavs are more difficult to convert
+## The converted results where mood swing of source audios are high.  
 
 <table>
 <tr>
