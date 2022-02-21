@@ -3,13 +3,11 @@
 ## Audio Demo for "FlowCPCVC: A flow contrastive predictive coding voice conversion system"
 
 
-## VC performance of different ways
-
 ___
 ## Any-to-Any
  
 --------
-#### speaker in test-dataset of vctk,all speakers are unseen during training
+#### speaker in test-dataset come from vctk, all speakers are unseen during training
 
 
 ### Man-to-female
@@ -443,10 +441,10 @@ ___
 </tr>
 </table>
 
-## target timbre come from libritts, which is a dataset different to vctk 
+## Audio of target come from libritts, which is a dataset different to vctk 
 
 --------
-#### speakers of target in libritts, speakers of source in vctk test-dataset. all speakers are unseen during training. We only train the model with vctk.
+#### Speakers of target in libritts. Speakers of source in vctk test-dataset. All speakers are unseen during training. We train the model only with vctk.
 
 <table>
 <tr>
