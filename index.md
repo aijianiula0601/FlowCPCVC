@@ -1,4 +1,5 @@
-## A flow contrastive predictive coding voice conversion system
+# FlowCPCVC
+## Audio Demo for "FlowCPCVC:A flow contrastive predictive coding voice conversion system"
 
 
 ## VC performance of different ways
