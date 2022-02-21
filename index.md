@@ -1,14 +1,9 @@
-—
-layout: FlowCPCVC 
-title:  Audio Demo for "FlowCPCVC: A flow contrastive predictive coding voice conversion system"
-—
+## Audio Demo for "FlowCPCVC: A flow contrastive predictive coding voice conversion system"
 
-## 
+-----
 
-___
-## Any-to-Any
+## Any-to-Any for voice conversation.
  
---------
 #### speakers in test-dataset come from vctk, all speakers are unseen during training
 
 
