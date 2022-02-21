@@ -5,7 +5,7 @@ pdj = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(pdj)
 print(pdj)
 
-speaker_info_file = "/Users/jia/Downloads/speaker-info.txt"
+speaker_info_file = "/Users/jiahong/Downloads/speaker-info.txt"
 speaker_gender_dic = {}
 with open(speaker_info_file, 'r', encoding='utf-8') as f:
     i = 0
@@ -166,12 +166,68 @@ def gen_tb_html(vits_save_base_dir, vq_save_base_dir, source_wav_name, target_wa
 # target_wav_name = to_sp.split("_to_")[1]
 # process_data(source_wav_name, target_wav_name)
 
-# target wavs in libritts
+# # target wavs in libritts
+#
+#
+# base_dir = "/Users/jia/Downloads"
+# vits_save_base_dir = "audio/vits_vctk_vc_to_libritts"
+# vq_save_base_dir = "audio/vqmivc_vctk_vc_to_libritts"
+#
+#
+# def process_data(source_wav_name, target_wav_name):
+#     tq_html = gen_tb_html(vits_save_base_dir, vq_save_base_dir, source_wav_name, target_wav_name)
+#     print(tq_html)
+#     cmd = f"cp -rf {base_dir}/{vits_save_base_dir.split('/')[-1]}/{source_wav_name}_to_{target_wav_name} {pdj}/{vits_save_base_dir}/ && cp -rf {base_dir}/{vq_save_base_dir.split('/')[-1]}/{source_wav_name}_to_{target_wav_name} {pdj}/{vq_save_base_dir}/"
+#     os.system(cmd)
+#
+#
+# to_sp = "p231_406_to_7127_75947_000082_000005"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
+# to_sp = "p231_406_to_8555_284447_000039_000002"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
+# to_sp = "p251_010_to_6829_68771_000042_000002"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
+# to_sp = "p274_247_to_2830_3979_000021_000000"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
+# to_sp = "p284_213_to_1995_1826_000031_000003_16k"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
+# to_sp = "p293_287_to_121_127105_000041_000001"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
+# to_sp = "p326_294_to_121_127105_000041_000001"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
+# to_sp = "p334_210_to_237_126133_000011_000000_16k"
+# source_wav_name = to_sp.split("_to_")[0]
+# target_wav_name = to_sp.split("_to_")[1]
+# process_data(source_wav_name, target_wav_name)
+# # --------------------------------------------------------------
 
 
-base_dir = "/Users/jia/Downloads"
-vits_save_base_dir = "audio/vits_vctk_vc_to_libritts"
-vq_save_base_dir = "audio/vqmivc_vctk_vc_to_libritts"
+# 更高难度的
+
+base_dir = "/Users/jiahong/Documents/vcc/FlowCPCVC论文/提交做mos评分音频"
+vits_save_base_dir = "audio/vits_yuqi"
+vq_save_base_dir = "audio/vq_yuqi"
 
 
 def process_data(source_wav_name, target_wav_name):
@@ -181,43 +237,27 @@ def process_data(source_wav_name, target_wav_name):
     os.system(cmd)
 
 
-to_sp = "p231_406_to_7127_75947_000082_000005"
+to_sp = "03-01-05-01-01-01-16_to_p334_018"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name, target_wav_name)
 # --------------------------------------------------------------
-to_sp = "p231_406_to_8555_284447_000039_000002"
+to_sp = "0011_001750_to_20_205_000031_000000"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name, target_wav_name)
 # --------------------------------------------------------------
-to_sp = "p251_010_to_6829_68771_000042_000002"
+to_sp = "男2_to_10011"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name, target_wav_name)
 # --------------------------------------------------------------
-to_sp = "p274_247_to_2830_3979_000021_000000"
+to_sp = "EMD6_to_p231_012"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name, target_wav_name)
 # --------------------------------------------------------------
-to_sp = "p284_213_to_1995_1826_000031_000003_16k"
+to_sp = "obm2_to_en-US-ElizabethNeural_1624631702559"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name, target_wav_name)
-# --------------------------------------------------------------
-to_sp = "p293_287_to_121_127105_000041_000001"
-source_wav_name = to_sp.split("_to_")[0]
-target_wav_name = to_sp.split("_to_")[1]
-process_data(source_wav_name, target_wav_name)
-# --------------------------------------------------------------
-to_sp = "p326_294_to_121_127105_000041_000001"
-source_wav_name = to_sp.split("_to_")[0]
-target_wav_name = to_sp.split("_to_")[1]
-process_data(source_wav_name, target_wav_name)
-# --------------------------------------------------------------
-to_sp = "p334_210_to_237_126133_000011_000000_16k"
-source_wav_name = to_sp.split("_to_")[0]
-target_wav_name = to_sp.split("_to_")[1]
-process_data(source_wav_name, target_wav_name)
-# --------------------------------------------------------------

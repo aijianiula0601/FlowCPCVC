@@ -1,4 +1,5 @@
 # FlowCPCVC
+
 ## Audio Demo for "FlowCPCVC:A flow contrastive predictive coding voice conversion system"
 
 
@@ -645,3 +646,128 @@ ___
 </td>
 </tr>
 </table> 
+
+## The results that wavs are more difficult to convert
+
+<table>
+<tr>
+<th>source</th>
+<th>target</th>
+<th>FlowCPCVC</th>
+<th>VQMIVC</th>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/03-01-05-01-01-01-16_to_p334_018/03-01-05-01-01-01-16.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_yuqi/03-01-05-01-01-01-16_to_p334_018/p334_018.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/03-01-05-01-01-01-16_to_p334_018/03-01-05-01-01-01-16_to_p334_018.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vq_yuqi/03-01-05-01-01-01-16_to_p334_018/03-01-05-01-01-01-16_to_p334_018.wav">
+</audio>
+</td>
+</tr>
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/0011_001750_to_20_205_000031_000000/0011_001750.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_yuqi/0011_001750_to_20_205_000031_000000/20_205_000031_000000.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/0011_001750_to_20_205_000031_000000/0011_001750_to_20_205_000031_000000.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vq_yuqi/0011_001750_to_20_205_000031_000000/0011_001750_to_20_205_000031_000000.wav">
+</audio>
+</td>
+</tr>
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/男2_to_10011/男2.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_yuqi/男2_to_10011/10011.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/男2_to_10011/男2_to_10011.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vq_yuqi/男2_to_10011/男2_to_10011.wav">
+</audio>
+</td>
+</tr>
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/EMD6_to_p231_012/EMD6.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_yuqi/EMD6_to_p231_012/p231_012.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/EMD6_to_p231_012/EMD6_to_p231_012.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vq_yuqi/EMD6_to_p231_012/EMD6_to_p231_012.wav">
+</audio>
+</td>
+</tr>
+
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/obm2_to_en-US-ElizabethNeural_1624631702559/obm2.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_yuqi/obm2_to_en-US-ElizabethNeural_1624631702559/en-US-ElizabethNeural_1624631702559.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+      <source id="wav" src="audio/vits_yuqi/obm2_to_en-US-ElizabethNeural_1624631702559/obm2_to_en-US-ElizabethNeural_1624631702559.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vq_yuqi/obm2_to_en-US-ElizabethNeural_1624631702559/obm2_to_en-US-ElizabethNeural_1624631702559.wav">
+</audio>
+</td>
+</tr>
+</table>
