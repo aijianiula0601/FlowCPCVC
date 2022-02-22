@@ -774,6 +774,49 @@
 
 ### The source audios come from libritts, the target timbre come from vctk in training dataset.
 
+
+#### target timbre example audio 
+<table>
+<tr>
+<th>source</th>
+<th>p236</th>
+<th>p264</th>
+<th>p269</th>
+<th>p263</th>
+<th>p259</th>
+<th>p256</th>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p236_482.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p264_460.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p269_391.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p259_440.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p256_278.wav">
+</audio>
+</td>
+</tr>
+</table>
+
+#### converted audios
+
 <table>
 <tr>
 <th>source</th>
