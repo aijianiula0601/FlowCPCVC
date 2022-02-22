@@ -32,7 +32,7 @@ def gen_tb_html(any2many_save_dir, source_wav_name, converted_wav_name_cl):
         tb_str = f"""
         <td>
         <audio id="audio" controls="" preload="none">
-               <source id="wav" src="{any2many_save_dir}/{converted_wav_name}.wav">
+               <source id="wav" src="{any2many_save_dir.replace(f'{pdj}/', '')}/{converted_wav_name}.wav">
         </audio>
         </td>
         """
