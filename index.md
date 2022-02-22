@@ -437,10 +437,10 @@
 </tr>
 </table>
 
-## Audios of target come from libritts, which is a dataset different to vctk 
+## Audios of target come from libritts, which is another dataset different to vctk 
 
 --------
-#### Speakers of target in libritts. Speakers of source in vctk test-dataset. All speakers are unseen during training. We train the model only with vctk.
+#### Speakers of target in libritts and speakers of source in test-dataset come from vctk. All speakers are unseen during training. We train the model only with vctk.
 
 <table>
 <tr>
@@ -643,7 +643,7 @@
 
 ## The converted results where the mood swing of source audios are high.  
 
-### The source audios come from vctk in test-dataset. Audios of target come from libritts which exclude in training. 
+### The source audios come from vctk in test-dataset and audios of target come from libritts which exclude in training. 
 
 <table>
 <tr>
