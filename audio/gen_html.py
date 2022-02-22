@@ -237,7 +237,7 @@ def process_data(source_wav_name, target_wav_name):
     os.system(cmd)
 
 
-to_sp = "03-01-05-01-01-01-16_to_p334_018"
+to_sp = "0012_000656_to_en-US-AriaNeural_1624612591339"
 source_wav_name = to_sp.split("_to_")[0]
 target_wav_name = to_sp.split("_to_")[1]
 process_data(source_wav_name, target_wav_name)

@@ -644,6 +644,8 @@
 
 ## The converted results where mood swing of source audios are high.  
 
+### Audio of source come from vctk in test-dataset. Audio of target come from libritts which exclude when training. 
+
 <table>
 <tr>
 <th>source</th>
@@ -653,24 +655,24 @@
 </tr>
 <tr>
 <td>
-<audio id="audio" controls="" preload="none">
-      <source id="wav" src="audio/vits_yuqi/03-01-05-01-01-01-16_to_p334_018/03-01-05-01-01-01-16.wav">
-</audio>
+    <audio id="audio" controls="" preload="none">
+          <source id="wav" src="audio/vits_yuqi/0012_000656_to_en-US-AriaNeural_1624612591339/0012_000656.wav">
+    </audio>
 </td>
 <td>
-<audio id="audio" controls="" preload="none">
-       <source id="wav" src="audio/vits_yuqi/03-01-05-01-01-01-16_to_p334_018/p334_018.wav">
-</audio>
+    <audio id="audio" controls="" preload="none">
+           <source id="wav" src="audio/vits_yuqi/0012_000656_to_en-US-AriaNeural_1624612591339/en-US-AriaNeural_1624612591339.wav">
+    </audio>
 </td>
 <td>
-<audio id="audio" controls="" preload="none">
-      <source id="wav" src="audio/vits_yuqi/03-01-05-01-01-01-16_to_p334_018/03-01-05-01-01-01-16_to_p334_018.wav">
-</audio>
+    <audio id="audio" controls="" preload="none">
+          <source id="wav" src="audio/vits_yuqi/0012_000656_to_en-US-AriaNeural_1624612591339/0012_000656_to_en-US-AriaNeural_1624612591339.wav">
+    </audio>
 </td>
 <td>
-<audio id="audio" controls="" preload="none">
-       <source id="wav" src="audio/vq_yuqi/03-01-05-01-01-01-16_to_p334_018/03-01-05-01-01-01-16_to_p334_018.wav">
-</audio>
+    <audio id="audio" controls="" preload="none">
+           <source id="wav" src="audio/vq_yuqi/0012_000656_to_en-US-AriaNeural_1624612591339/0012_000656_to_en-US-AriaNeural_1624612591339.wav">
+    </audio>
 </td>
 </tr>
 
