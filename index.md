@@ -644,7 +644,7 @@
 
 ## The converted results where mood swing of source audios are high.  
 
-### Audio of source come from vctk in test-dataset. Audio of target come from libritts which exclude when training. 
+### The source audios come from vctk in test-dataset. Audios of target come from libritts which exclude in training. 
 
 <table>
 <tr>
