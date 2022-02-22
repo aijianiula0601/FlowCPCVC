@@ -778,7 +778,6 @@
 #### target timbre example audio 
 <table>
 <tr>
-<th>source</th>
 <th>p236</th>
 <th>p264</th>
 <th>p269</th>
@@ -800,6 +799,11 @@
 <td>
 <audio id="audio" controls="" preload="none">
        <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p269_391.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p263_430.wav">
 </audio>
 </td>
 <td>

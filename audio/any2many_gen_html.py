@@ -48,7 +48,6 @@ def gen_tb_html(any2many_save_dir, source_wav_name, converted_wav_name_cl):
 target_wav_html = """
 <table>
 <tr>
-<th>source</th>
 <th>p236</th>
 <th>p264</th>
 <th>p269</th>
@@ -70,6 +69,11 @@ target_wav_html = """
 <td>
 <audio id="audio" controls="" preload="none">
        <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p269_391.wav">
+</audio>
+</td>
+<td>
+<audio id="audio" controls="" preload="none">
+       <source id="wav" src="audio/vits_any2many_vc/target_tone_wavs/p263_430.wav">
 </audio>
 </td>
 <td>
