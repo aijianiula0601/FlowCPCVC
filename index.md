@@ -834,7 +834,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/4719_25766_000057_000001_22050.wav">
+<source id="wav" src="audio/vits_any2many_vc/4719_25766_000057_000001_22050.wav">
 </audio>
 </td>
 <td>
@@ -871,7 +871,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/8163_274549_000005_000001.wav">
+<source id="wav" src="audio/vits_any2many_vc/8163_274549_000005_000001.wav">
 </audio>
 </td>
 <td>
@@ -908,7 +908,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/7967_104986_000035_000000.wav">
+<source id="wav" src="audio/vits_any2many_vc/7967_104986_000035_000000.wav">
 </audio>
 </td>
 <td>
@@ -945,7 +945,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/6497_234106_000052_000000_22050.wav">
+<source id="wav" src="audio/vits_any2many_vc/6497_234106_000052_000000_22050.wav">
 </audio>
 </td>
 <td>
@@ -982,7 +982,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/8825_292252_000018_000000_22050.wav">
+<source id="wav" src="audio/vits_any2many_vc/8825_292252_000018_000000_22050.wav">
 </audio>
 </td>
 <td>
@@ -1019,7 +1019,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/882_123267_000043_000004.wav">
+<source id="wav" src="audio/vits_any2many_vc/882_123267_000043_000004.wav">
 </audio>
 </td>
 <td>
@@ -1056,7 +1056,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/1776_139035_000002_000000_22050.wav">
+<source id="wav" src="audio/vits_any2many_vc/1776_139035_000002_000000_22050.wav">
 </audio>
 </td>
 <td>
@@ -1093,7 +1093,7 @@
 <tr>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="/Users/jiahong/PycharmProjects/vcc/FlowCPCVC/audio/vits_any2many_vc/4145_104606_000026_000000.wav">
+<source id="wav" src="audio/vits_any2many_vc/4145_104606_000026_000000.wav">
 </audio>
 </td>
 <td>
