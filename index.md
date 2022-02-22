@@ -2,10 +2,9 @@
 
 -----
 
-## Any-to-Any for voice conversation.
+## Any-to-Any
  
-#### speakers in test-dataset come from vctk, all speakers are unseen during training
-
+#### speakers come from vctk in test-dataset, all speakers are unseen during training
 
 ### Man-to-female
 
@@ -438,7 +437,7 @@
 </tr>
 </table>
 
-## Audio of target come from libritts, which is a dataset different to vctk 
+## Audios of target come from libritts, which is a dataset different to vctk 
 
 --------
 #### Speakers of target in libritts. Speakers of source in vctk test-dataset. All speakers are unseen during training. We train the model only with vctk.
@@ -642,7 +641,7 @@
 </tr>
 </table> 
 
-## The converted results where mood swing of source audios are high.  
+## The converted results where the mood swing of source audios are high.  
 
 ### The source audios come from vctk in test-dataset. Audios of target come from libritts which exclude in training. 
 
@@ -772,10 +771,9 @@
 ---
 ## Any-to-Many
 
-### The source audios come from libritts, the target timbre come from vctk in training dataset.
+### Audios of source come from libritts and timbre of target come from vctk in training dataset.
 
-
-#### target timbre example audio 
+#### Some examples for target timbre  
 <table>
 <tr>
 <th>p236</th>
@@ -819,7 +817,7 @@
 </tr>
 </table>
 
-#### converted audios
+#### Converted results
 
 <table>
 <tr>
