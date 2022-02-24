@@ -1,16 +1,10 @@
-## FlowCPCVC 
+# <center> FlowCPCVC: A flow contrastive predictivecoding voice conversion system </center>
 
-#### Audio Demo for "FlowCPCVC: A flow contrastive predictive coding voice conversion system"
-
----
-
-## <center> FlowCPCVC: A flow contrastive predictivecoding voice conversion system </center>
-
-#### <center> Jia-Hong Huang, Wen Xu, Yu-Le Li </center>
+<center> Jia-Hong Huang, Wen Xu, Yu-Le Li </center>
 
 ## Abstract 
 
-#### The task of voice conversion(VC) system is to change the voice iden-tity  from  one  speaker  into  another  while  keeping  the  linguistic  contentunchanged.  Any-to-any voice conversion had gained increasing popular-ity  in  many  applications.   In  the  paper,  we  presented  FlowCPCVC,  anzero-shot voice conversion(VC) system, which is light-weight end-to-endsystem and can achieve state-of-art quality conversion.  Our model baseon  VAE,  which  combined  speaker  encoder  and  contend  extractor  witha  fancy  method  to  train  our  model.    The  speaker  verification  aim  toextract  speaker’s  timbre  and  Contrastive  predictive  coding(CPC)  mod-ule  help  to  extract  linguistic  content  to  guide  the  flow  module  discardthe  tone  and  keep  the  linguistic  content.    Using  the  speaker  verifica-tion module, our framework can extract the tone embedding vector fromspeech  to  assist  to  finish  the  zero-shot  VC  task.   Although  our  frame-work  force  on  any-to-any  task,  it  can  also  extend  to  any-to-many  taskfor better robustness.  Experimental results show that the FlowCPCVCsystem,  compared  with  other  zero-shot  systems,  can  achieve  state-of-art  quality  for  voice  conversion.
+The task of voice conversion(VC) system is to change the voice iden-tity  from  one  speaker  into  another  while  keeping  the  linguistic  contentunchanged.  Any-to-any voice conversion had gained increasing popular-ity  in  many  applications.   In  the  paper,  we  presented  FlowCPCVC,  anzero-shot voice conversion(VC) system, which is light-weight end-to-endsystem and can achieve state-of-art quality conversion.  Our model baseon  VAE,  which  combined  speaker  encoder  and  contend  extractor  witha  fancy  method  to  train  our  model.    The  speaker  verification  aim  toextract  speaker’s  timbre  and  Contrastive  predictive  coding(CPC)  mod-ule  help  to  extract  linguistic  content  to  guide  the  flow  module  discardthe  tone  and  keep  the  linguistic  content.    Using  the  speaker  verifica-tion module, our framework can extract the tone embedding vector fromspeech  to  assist  to  finish  the  zero-shot  VC  task.   Although  our  frame-work  force  on  any-to-any  task,  it  can  also  extend  to  any-to-many  taskfor better robustness.  Experimental results show that the FlowCPCVCsystem,  compared  with  other  zero-shot  systems,  can  achieve  state-of-art  quality  for  voice  conversion.
 
 ## Compared systems
 
@@ -20,7 +14,7 @@
 ---
 ## Any-to-Any task
  
-#### speakers come from vctk in test-dataset, all speakers are unseen during training
+speakers come from vctk in test-dataset, all speakers are unseen during training
 
 ### Man-to-female
 
