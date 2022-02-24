@@ -2,7 +2,9 @@
 
 #### Audio Demo for "FlowCPCVC: A flow contrastive predictive coding voice conversion system"
 
-## FlowCPCVC: A flow contrastive predictivecoding voice conversion system
+---
+
+## <center> FlowCPCVC: A flow contrastive predictivecoding voice conversion system </center>
 
 #### <center> Jia-Hong Huang, Wen Xu, Yu-Le Li </center>
 
