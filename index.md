@@ -1,4 +1,4 @@
-# <center> FlowCPCVC: A flow contrastive predictivecoding voice conversion system </center>
+# <center> FlowCPCVC: A flow contrastive predictive coding learning for voice conversion system </center>
 
 <center> Jia-Hong Huang, Wen Xu, Yu-Le Li </center>
 
