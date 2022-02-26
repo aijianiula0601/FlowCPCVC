@@ -653,7 +653,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 
 ## The converted results where the mood swing of source audios are high.  
 
-### The source audios come from vctk in test-dataset and audios of target come from libritts which exclude in training. 
+### The source audios come from libritts or others instead of vckt and audios of target come from libritts. Both of them unseen in training. 
 
 <table>
 <tr>
