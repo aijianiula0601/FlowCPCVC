@@ -1,2 +1,2 @@
 # FlowCPCVC
-Audio Demo for "FlowCPCVC: A flow contrastive predictive coding voice conversion system"
+Audio demo for "FlowCPCVC: A flow contrastive predictive coding learning network for voice conversion"
