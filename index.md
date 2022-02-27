@@ -304,7 +304,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </table>>
 
 
-## female-to-Man or Man-toMan
+## female-to-female or Man-to-Man
 
 <table>
 <tr>
