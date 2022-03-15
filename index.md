@@ -15,7 +15,7 @@ Several recent any-to-any voice conversion systems are able to separate timbre a
 
 - Fragmentvc: Any-to-any voice conversion by end-to-end extracting and fusing fine-grained voice fragments with attention.
 - MediumVC: Any-to-any voice conversion using synthetic specific-speaker speeches as intermedium features.  
-- VQMIVC：Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion. Disong Wang et al.
+- VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion. Disong Wang et al.
 - FlowCPCVC(Ours)
 
 ---
