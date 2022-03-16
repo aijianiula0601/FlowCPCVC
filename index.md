@@ -9,7 +9,7 @@ nav_order: 1
 
 ## Abstract 
 
-Several recent any-to-any voice conversion systems are able to separate timbre and content by unsupervised training, but quality of their results is lacking in naturalness and timbre similarity. Moreover, they require two stages for training, in which a spectrum generation process is indispensable. In this paper, we proposed the FlowCPCVC system, which results in more natural and higher timbre similarity. For any-to-any task, FlowCPCVC requires only one stage of training and is the first completely end-to-end training system in our knowledge. FlowCPCVC base on VAE, it combined speaker encoder and contend extractor with a fancy method for training. The speaker encoder aim to extract speaker's timbre and contend extractor, which construct with Contrastive predictive coding(CPC) learning network, help to extract linguistic content to guide the flow module discard the timbre and keeping the linguistic content. It acheieved more natural speech and higher timbre similarity with the help of the flow module. The FlowCPCVC framework directly incorporates the vocoder into the training, enabling the implementation of only one stage to complete the whole training process, thus avoiding the loss of spectral information as in two-stage training. Although our system focuses on any-to-any task, it can extend to any-to-many task with more robust conversion results. Experiments show that the FlowCPCVC system can achieve better results than current state-of-art voice conversion system.
+Recently, the research of any-to-any voice conversion has developed rapidly, but quality of their results is lacking in naturalness and timbre similarity. Moreover, they require two stages for training, in which a spectrum generation process is indispensable. In this paper, we propose the FlowCPCVC system, which results in more naturalness and higher timbre similarity. For any-to-any task, FlowCPCVC requires only one stage of training the conversion process and is the first end-to-end training the conversion process system in our knowledge. FlowCPCVC base on VAE, it combined speaker encoder and contend extractor with a fancy method for training. The speaker encoder aim to extract speaker's timbre and contend extractor, which construct with contrastive predictive coding(CPC) learning network, help to extract linguistic content to guide the flow module discard the timbre and keeping the linguistic content. It achieved more natural speech and higher timbre similarity with the help of the flow module. The FlowCPCVC framework directly incorporates the vocoder into the training, enabling the implementation of only one stage to complete the whole training conversion process, thus avoiding the loss of spectral information as in two-stage training. Although our system focuses on any-to-any task, it can extend to any-to-many task with more robust conversion results. Experiments show that the FlowCPCVC system can achieve better results than other any-to-any voice conversion systems.
 
 ## Compared systems
 
@@ -30,7 +30,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 <th>source</th>
 <th>target</th>
 <th>FragmentVC</th>
-<th>MEDIUMVC</th>
+<th>MediumVC</th>
 <th>VQMIVC</th>
 <th>FlowCPCVC</th>
 </tr>
@@ -52,7 +52,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-      <source id="wav" src="any2any/vctk2vctk/mediumvc/p284_213_to_p340_388.wav">
+      <source id="wav" src="any2any/vctk2vctk/MediumVC/p284_213_to_p340_388.wav">
 </audio>
 </td>
 <td>
@@ -86,7 +86,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-      <source id="wav" src="any2any/vctk2vctk/mediumvc/p334_210_to_p314_236.wav">
+      <source id="wav" src="any2any/vctk2vctk/MediumVC/p334_210_to_p314_236.wav">
 </audio>
 </td>
 <td>
@@ -120,7 +120,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-      <source id="wav" src="any2any/vctk2vctk/mediumvc/p251_010_to_p340_388.wav">
+      <source id="wav" src="any2any/vctk2vctk/MediumVC/p251_010_to_p340_388.wav">
 </audio>
 </td>
 <td>
@@ -154,7 +154,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2vctk/mediumvc/p360_189_to_p239_009.wav">
+       <source id="wav" src="any2any/vctk2vctk/MediumVC/p360_189_to_p239_009.wav">
 </audio>
 </td>
 <td>
@@ -188,7 +188,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2vctk/mediumvc/p326_294_to_p262_054.wav">
+       <source id="wav" src="any2any/vctk2vctk/MediumVC/p326_294_to_p262_054.wav">
 </audio>
 </td>
 <td>
@@ -222,7 +222,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2vctk/mediumvc/p274_247_to_p340_388.wav">
+       <source id="wav" src="any2any/vctk2vctk/MediumVC/p274_247_to_p340_388.wav">
 </audio>
 </td>
 <td>
@@ -245,7 +245,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 <th>source</th>
 <th>target</th>
 <th>FragmentVC</th>
-<th>MEDIUMVC</th>
+<th>MediumVC</th>
 <th>VQMIVC</th>
 <th>FlowCPCVC</th>
 </tr>
@@ -267,7 +267,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p231_406_to_p273_026.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p231_406_to_p273_026.wav">
 </audio>
 </td>
 <td>
@@ -301,7 +301,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p293_287_to_p302_012.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p293_287_to_p302_012.wav">
 </audio>
 </td>
 <td>
@@ -335,7 +335,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p231_406_to_p243_148.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p231_406_to_p243_148.wav">
 </audio>
 </td>
 <td>
@@ -369,7 +369,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p293_287_to_p273_026.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p293_287_to_p273_026.wav">
 </audio>
 </td>
 <td>
@@ -403,7 +403,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p293_287_to_p270_103.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p293_287_to_p270_103.wav">
 </audio>
 </td>
 <td>
@@ -427,7 +427,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 <th>source</th>
 <th>target</th>
 <th>FragmentVC</th>
-<th>MEDIUMVC</th>
+<th>MediumVC</th>
 <th>VQMIVC</th>
 <th>FlowCPCVC</th>
 </tr>
@@ -449,7 +449,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p284_213_to_p243_148.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p284_213_to_p243_148.wav">
 </audio>
 </td>
 <td>
@@ -482,7 +482,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p334_210_to_p270_103.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p334_210_to_p270_103.wav">
 </audio>
 </td>
 <td>
@@ -515,7 +515,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p251_010_to_p270_103.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p251_010_to_p270_103.wav">
 </audio>
 </td>
 <td>
@@ -548,7 +548,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p293_287_to_p225_328.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p293_287_to_p225_328.wav">
 </audio>
 </td>
 <td>
@@ -581,7 +581,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p293_287_to_p262_054.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p293_287_to_p262_054.wav">
 </audio>
 </td>
 <td>
@@ -615,7 +615,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="any2any/vctk2vctk/mediumvc/p293_287_to_p340_388.wav">
+<source id="wav" src="any2any/vctk2vctk/MediumVC/p293_287_to_p340_388.wav">
 </audio>
 </td>
 <td>
@@ -641,7 +641,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 <th>source</th>
 <th>target</th>
 <th>FragmentVC</th>
-<th>MEDIUMVC</th>
+<th>MediumVC</th>
 <th>VQMIVC</th>
 <th>FlowCPCVC</th>
 </tr>
@@ -663,7 +663,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p231_406_to_7127_75947_000082_000005.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p231_406_to_7127_75947_000082_000005.wav">
 </audio>
 </td>
 <td>
@@ -697,7 +697,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p231_406_to_8555_284447_000039_000002.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p231_406_to_8555_284447_000039_000002.wav">
 </audio>
 </td>
 <td>
@@ -731,7 +731,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p251_010_to_6829_68771_000042_000002.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p251_010_to_6829_68771_000042_000002.wav">
 </audio>
 </td>
 <td>
@@ -765,7 +765,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p274_247_to_2830_3979_000021_000000.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p274_247_to_2830_3979_000021_000000.wav">
 </audio>
 </td>
 <td>
@@ -799,7 +799,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p284_213_to_1995_1826_000031_000003_16k.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p284_213_to_1995_1826_000031_000003_16k.wav">
 </audio>
 </td>
 <td>
@@ -833,7 +833,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p293_287_to_121_127105_000041_000001.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p293_287_to_121_127105_000041_000001.wav">
 </audio>
 </td>
 <td>
@@ -867,7 +867,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p326_294_to_121_127105_000041_000001.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p326_294_to_121_127105_000041_000001.wav">
 </audio>
 </td>
 <td>
@@ -901,7 +901,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/vctk2libritts/mediumvc/p334_210_to_237_126133_000011_000000_16k.wav">
+       <source id="wav" src="any2any/vctk2libritts/MediumVC/p334_210_to_237_126133_000011_000000_16k.wav">
 </audio>
 </td>
 <td>
@@ -926,7 +926,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 <th>source</th>
 <th>target</th>
 <th>FragmentVC</th>
-<th>MEDIUMVC</th>
+<th>MediumVC</th>
 <th>VQMIVC</th>
 <th>FlowCPCVC</th>
 </tr>
@@ -948,7 +948,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
     <audio id="audio" controls="" preload="none">
-           <source id="wav" src="any2any/yuqi/mediumvc/0012_000656_to_en-US-AriaNeural_1624612591339.wav">
+           <source id="wav" src="any2any/yuqi/MediumVC/0012_000656_to_en-US-AriaNeural_1624612591339.wav">
     </audio>
 </td>
 <td>
@@ -981,7 +981,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/yuqi/mediumvc/0011_001750_to_20_205_000031_000000.wav">
+       <source id="wav" src="any2any/yuqi/MediumVC/0011_001750_to_20_205_000031_000000.wav">
 </audio>
 </td>
 <td>
@@ -1014,7 +1014,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/yuqi/mediumvc/男2_to_10011.wav">
+       <source id="wav" src="any2any/yuqi/MediumVC/男2_to_10011.wav">
 </audio>
 </td>
 <td>
@@ -1047,7 +1047,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/yuqi/mediumvc/EMD6_to_p231_012.wav">
+       <source id="wav" src="any2any/yuqi/MediumVC/EMD6_to_p231_012.wav">
 </audio>
 </td>
 <td>
@@ -1080,7 +1080,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 </td>
 <td>
 <audio id="audio" controls="" preload="none">
-       <source id="wav" src="any2any/yuqi/mediumvc/obm2_to_en-US-ElizabethNeural_1624631702559.wav">
+       <source id="wav" src="any2any/yuqi/MediumVC/obm2_to_en-US-ElizabethNeural_1624631702559.wav">
 </audio>
 </td>
 <td>
