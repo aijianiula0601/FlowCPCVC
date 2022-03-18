@@ -919,9 +919,7 @@ speakers come from vctk in test-dataset, all speakers are unseen during training
 
 ## Results of emotional voice conversion
 
-#### The mood swing of source audios are high.  
-
-### The source audios come from libritts or other dataset instead of vckt and audios of target come from libritts. Both of them are unseen in training. 
+#### The mood swing of source audios are high. The source audios come from libritts or other dataset instead of vckt and audios of target come from libritts. Both of them are unseen in training. 
 
 <table>
 <tr>
