@@ -3,7 +3,7 @@ title: FlowCPCVC
 layout: default
 nav_order: 1
 ---
-# <center> FlowCPCVC: A flow contrastive predictive coding learning network for voice conversion </center>
+# <center> FlowCPCVC: A contrastive predictive coding supervised flow framework for any-to-any voice conversion </center>
 
 <center> Jiahong Huang, Wen Xu, Yule Li, Junshi Liu, Dongpeng Ma,Wei Xiang </center>
 
