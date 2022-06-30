@@ -15,7 +15,7 @@ Recently, the research of any-to-any voice conversion(VC) has been developed rap
 ## Paper
 
 - Accepted in Interspeech 2022
-- The paper can be accessed [here](./paper/FlowCPCVC_Bigo2022.pdf)
+- The paper can be accessed [here](./paper/FlowCPCVC_Interspeech2022_bigo.pdf)
 
 ## Compared systems
 
