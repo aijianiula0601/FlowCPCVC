@@ -12,6 +12,11 @@ nav_order: 1
 
 Recently, the research of any-to-any voice conversion(VC) has been developed rapidly. However, they often suffer from unsatisfactory quality and require two stages for training, in which a spectrum generation process is indispensable. In this paper, we propose the FlowCPCVC system, which results in higher speech naturalness and timbre similarity. FlowCPCVC is the first one-stage training system for any-to-any task in our knowledge by taking advantage of VAE and contrastive learning. We employ a speaker encoder to extract timbre information, and a contrastive predictive coding(CPC) based content extractor to guide the flow module to discard the timbre and keeping the linguistic information. Our method directly incorporates the vocoder into the training, thus avoiding the loss of spectral information as in two-stage training. With a fancy method in training any-to-any task, we can also get robust results when using it in any-to-many conversion. Experiments show that FlowCPCVC achieves obvious improvement when compared to VQMIVC which is current state-of-the-art any-to-any voice conversion system.
 
+## Paper
+
+- Accepted in Interspeech 2022
+- The paper can be accessed [here](./paper/FlowCPCVC_Bigo2022.pdf)
+
 ## Compared systems
 
 - Fragmentvc: Any-to-any voice conversion by end-to-end extracting and fusing fine-grained voice fragments with attention.
